@@ -1,0 +1,87 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+
+ .wall {
+   -fx-background-color: #000000;
+   -fx-border-width: 1;
+   -fx-border-color: #000000;
+ }
+
+ .clue {
+   -fx-text-fill: #ffffff;
+   -fx-background-color: #000000;
+   -fx-alignment: center;
+   -fx-border-width: 1;
+   -fx-border-color: #000000;
+ }
+
+ .lamp {
+   -fx-background-color: #DBA800;
+   -fx-font-size: 12;
+   -fx-border-width: 1;
+   -fx-border-color: #000000;
+ }
+
+ .lit {
+   -fx-background-color: #DBA800;
+   -fx-border-width: 1;
+   -fx-border-color: #000000;
+ }
+
+ .corridor {
+    -fx-background-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-border-color: #000000;
+  }
+
+  .title {
+     -fx-text-fill: #0000FF;
+     -fx-text-align: center;
+     -fx-background-color: #FFFF00;
+     -fx-alignment: center;
+     -fx-border-width: 3;
+     -fx-border-color: #0000FF;
+     -fx-border-radius: 4px;
+     -fx-background-radius: 4px;
+     -fx-font-size: 20;
+     -fx-font-family: Courier New, bold;
+   }
+
+  .other{
+     -fx-text-fill: #00008B;
+     -fx-background-color: #6F8FAF;
+     -fx-alignment: center;
+     -fx-text-align: center;
+     -fx-border-width: 2;
+     -fx-border-color: #00008B;
+     -fx-border-radius: 4px;
+     -fx-background-radius: 4px;
+  }
+
+  .isSolvedWin{
+      -fx-text-fill: #097969;
+      -fx-background-color: #AFE1AF;
+      -fx-alignment: center;
+      -fx-text-align: center;
+      -fx-border-width: 2;
+      -fx-border-color: #097969;
+      -fx-border-radius: 4px;
+      -fx-background-radius: 4px;
+      -fx-alignment: center;
+  }
+  .isSolvedLose{
+        -fx-text-fill: #880808;
+        -fx-background-color: #FAA0A0;
+        -fx-alignment: center;
+        -fx-text-align: center;
+        -fx-border-width: 2;
+        -fx-border-color: #880808;
+        -fx-border-radius: 4px;
+        -fx-background-radius: 4px;
+        -fx-alignment: center;
+    }
